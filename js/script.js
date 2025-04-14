@@ -21,7 +21,7 @@ function fetchGamesFromAPI() {
         let baseURL = "https://api.rawg.io/api/games"; // The baseURL for the webiste
         let key = "65795d32336c492c89733f0de94d2c4e"; // The special key I got from the website
 
-        let url = `${baseURL}?key=${key}&search=${userValue}`;
+        let url = `${baseURL}?key=${key}&search=${userValue}`; // For the web service I used, it used 'key' instead of 'apikey' and 'search' instead of just 's'
         console.log(`Fetching data from: ${url}`);
 
         fetch(url)
