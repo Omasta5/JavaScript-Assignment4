@@ -1,3 +1,57 @@
 html {
     background-color: aqua;
 }
+/* Adds a bit of flare to the Assignment 4 text */
+.bgInfo h1{
+    margin-bottom: 130px;
+    background-color: aquamarine;
+    padding: 30px;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* Will keep all the content of this class in the center of the screen */
+.mb-3{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.mb-3 .input-group-text{
+    background-color: rgb(22, 105, 105);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 5px; 
+    margin: 20px; 
+}
+/* Will add space between the prompt text and the textbox */
+.input-group-text {
+    margin-bottom: 15px;
+}
+/* Keeps the textbox at a certian width */
+.form-control {
+    width: 500px;
+}
+
+/* Button */
+#submitButton {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-success { /* Adds some extra padding to the submit button */
+    width: 100%;
+    max-width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* Some Styling for my name and student ID when that shows up */
+#myStudentId{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 30px;
+}
