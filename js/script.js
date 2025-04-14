@@ -34,7 +34,7 @@ function fetchGamesFromAPI() {
             .then(json => displayGames(json))
             .catch(error => {
                 console.error("Error fetching data:", error);
-                alert("Oops! Seems like something went wrong while fetching the data. Please try again later.");
+                alert("Oops! Seems like something went wrong while fetching the data. Please try again.");
             });
     }
 }
